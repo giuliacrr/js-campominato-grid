@@ -11,10 +11,13 @@
 }
 
 .div-style {
-  flex-basis:  calc(100% / 10);
   /*flex-basis:  calc(100% / 9);*/
   /*flex-basis:  calc(100% / 7);*/
   aspect-ratio: 1/1;
   border: 1px solid black;
 }
 
+.select-width-ow {
+  width:200px;
+  margin:auto;
+}
