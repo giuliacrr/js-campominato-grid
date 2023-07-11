@@ -1,0 +1,20 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#divs-container {
+  width:800px;
+  margin: auto;
+}
+
+.div-style {
+  flex-basis:  calc(100% / 10);
+  /*flex-basis:  calc(100% / 9);*/
+  /*flex-basis:  calc(100% / 7);*/
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+}
+
